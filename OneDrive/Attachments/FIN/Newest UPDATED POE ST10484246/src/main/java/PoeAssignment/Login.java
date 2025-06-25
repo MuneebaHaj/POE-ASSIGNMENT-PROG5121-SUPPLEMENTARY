@@ -5,7 +5,7 @@ import static PoeAssignment.POEASSIGNMENT2.cellRegex;
 
 
 public class Login {
-       // === Password Validation Helper Method ===
+       // =helps for password checks.
     public boolean checkPasswordComplexity(String password) {
         if (password == null || password.length() < 8) return false;
 
@@ -33,12 +33,12 @@ public class Login {
      };      
       return Validation  ;
     }
-  // No-argument version
+  
 public boolean checkCellPhoneNumber() {
     return POEASSIGNMENT2.cellNumber != null && POEASSIGNMENT2.cellNumber.matches(POEASSIGNMENT2.cellRegex);
 }
 
-// Argument version for testing individual numbers
+
 public boolean checkCellPhoneNumber(String number) {
     return number != null && number.matches(POEASSIGNMENT2.cellRegex);
 }
