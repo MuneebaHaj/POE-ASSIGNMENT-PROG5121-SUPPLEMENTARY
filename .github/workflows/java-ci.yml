@@ -19,5 +19,5 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - name: Build with Maven
-    working-directory: POE-ASSIGNMENT-PROG5121-SUPPLEMENTARY C:\Users\OEM\Music\mun\MuneebaHajatSEM2\.github\workflows
+      working-directory: POE-ASSIGNMENT-PROG5121-SUPPLEMENTARY C:\Users\OEM\Music\mun\MuneebaHajatSEM2\.github\workflows
       run: mvn -B clean verify
