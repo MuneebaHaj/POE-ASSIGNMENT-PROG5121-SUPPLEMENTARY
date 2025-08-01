@@ -19,7 +19,7 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-
+        
     - name: Build with Maven
-      working-directory: mun/MuneebaHajatSEM2
+      working-directory: Music/mun/MuneebaHajatSEM2
       run: mvn -B clean verify
